@@ -9,7 +9,8 @@ Gradle 是以 Groovy 语言为基础，面向Java应用为主。基于DSL（领�
 
 [Could not run build action using Gradle distribution](http://www.quke.org/post/andriod-studio-gradle.html) </br>
 建议解决方案把gradle-2.6-bin.zip上传到七牛，然后把gradle-wrapper.properties下的distributionUrl地址替换为
-http\://xx.clouddn.com/tempgradle-2.6-bin.zip
+http\://xx.clouddn.com/tempgradle-2.6-bin.zip </br>
+zip下载地址：http://services.gradle.org/distributions/
 
 ### 任何人获取代码后，不用安装gradle，就可以构建工程。
 
