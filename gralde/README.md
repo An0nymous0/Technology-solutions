@@ -20,20 +20,15 @@ project-root
             |-gradle-wrapper.properties
     |-gradlew
     |-gradlew.bat
-
 gradlew, gradlew.bat 是支持多平台的gradle运行命令，通过gradlew，可以执行gradle构建任务。
-
-
 如果运行时，发现系统没有对应版本的gradle，会通过gradle-wrapper.jar下载gradle-wrapper.properties中指定的gradle版本。这样的话，
 任何人获取代码后，不用安装gradle，就可以构建工程。
 gradle-wrapper.properties文件中指定的版本，就是运行gradle wrapper命令时的gradle版本。
 当然，也可以手动指定别的版本，在根目录下build.gradle文件中添加:
-
 <code>
 task wrapper(type: Wrapper) {
     gradleVersion = '2.3'
 }
 <code>
-
 再运行gradle wrapper。
 <pre>
