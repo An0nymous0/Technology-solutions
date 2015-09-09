@@ -4,9 +4,5 @@
 
 Gradle 是以 Groovy 语言为基础，面向Java应用为主。基于DSL（领域特定语言）语法的自动化构建工具。
 
-Markdown：
 
-> * 整理知识，学习笔记
-> * 发布日记，杂文，所见所想
-> * 撰写发布技术文稿（代码支持）
-> * 撰写发布学术论文（LaTeX 公式支持）
+> * [Could not run build action using Gradle distribution](http://www.quke.org/post/andriod-studio-gradle.html)
