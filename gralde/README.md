@@ -31,4 +31,7 @@ task wrapper(type: Wrapper) {
 }
 <code>
 再运行gradle wrapper。
+
+参考：http://rinvay.github.io/android/2015/04/09/Build-Android-with-Gradle/
 <pre>
+
