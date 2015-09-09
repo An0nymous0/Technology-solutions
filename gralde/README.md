@@ -12,7 +12,7 @@ Gradle 是以 Groovy 语言为基础，面向Java应用为主。基于DSL（领�
 ### 任何人获取代码后，不用安装gradle，就可以构建工程。
 
 > 在项目根目录下，运行终端命令gradle wrapper，就会生成下面几个文件：
-
+<pre>
 project-root
     |-gradle
         |-wrapper
@@ -20,3 +20,4 @@ project-root
             |-gradle-wrapper.properties
     |-gradlew
     |-gradlew.bat
+<pre>
